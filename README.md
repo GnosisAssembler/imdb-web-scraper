@@ -28,7 +28,25 @@ Then the DOM will be traversed and the required information (title, release date
 Using particular css selectors with the help of cheerio.js, the web scraper is capturing the information we need
 
 ![title-release](img/title-release.png?raw=true)
+
+```
+$('.title_wrapper').filter(function(){
+  let captured_data = $(this);
+  title = captured_data.children().first().text();
+  json.title = title;
+})
+
+```
+
 ![rate](img/rate.png?raw=true)
+
+```
+$('.ratingValue').filter(function(){
+    let captured_data = $(this);
+    rating = captured_data.children().first().text();
+    json.rating = rating;
+})
+```
 
 and then exports a json file in the terminal
 
