@@ -29,7 +29,7 @@ Using particular css selectors with the help of cheerio.js, the web scraper is c
 
 ![title-release](img/title-release.png?raw=true)
 
-```
+```javascript
 $('.title_wrapper').filter(function(){
   let captured_data = $(this);
   title = captured_data.children().first().text();
@@ -40,7 +40,7 @@ $('.title_wrapper').filter(function(){
 
 ![rate](img/rate.png?raw=true)
 
-```
+```javascript
 $('.ratingValue').filter(function(){
     let captured_data = $(this);
     rating = captured_data.children().first().text();
