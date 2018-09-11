@@ -50,7 +50,7 @@ $('.ratingValue').filter(function(){
 
 and then exports a json file in the terminal
 
-![output](img/output.JPG?raw=true)
+![output](img/output.png?raw=true)
 
 
 
