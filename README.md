@@ -1,4 +1,8 @@
 # IMDB-Web-Scraper
+![version 1.0.1](https://img.shields.io/badge/version-1.0.1-brightgreen.svg)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/pankaryp/IMDB-Web-Scraper.git)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/pankaryp/IMDB-Web-Scraper.git)
+
 React Web scraper using Node.js and Cheerio.js to retrieve information about a movie in IMDB.
 
 ### Prerequisites
