@@ -24,11 +24,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <h1>IMDB Movie Scraper</h1>
+        <hr></hr>
           {this.state.articles.map(article =>
               <div className="Content">
                 <h1>{article.title}</h1>
-                <h2>{article.release}</h2>
-                <h3>{article.rating}</h3>
+                <h2>Release date:</h2> <p>{article.release}</p>
+                <h3>Rating: </h3> <p>{article.rating}</p>
               </div>
           )}
       </div>

@@ -1,3 +1,20 @@
 .App {
     text-align: center;
 }
+
+.App hr {
+    width: 500px;
+    border: 1px solid #DCABAC;
+}
+
+.App h1 {
+    color: #ffff;
+    font-size: 30px;
+}
+
+.Content {
+    border: 1px solid white;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
