@@ -21,7 +21,7 @@ npm install
 npm run client-install
 ```
 
-### Start the server
+### Run the app
 ```
 npm run dev
 ```
