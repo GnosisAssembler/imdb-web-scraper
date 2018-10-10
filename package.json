@@ -1,0 +1,21 @@
+{
+  "name": "web-scraper-node-cheerio",
+  "version": "1.0.1",
+  "description": "React Web scraper using Node.js and Cheerio.js to retrieve information about a movie in IMDB.",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": " concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Panos Karypiadis",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "request": "^2.88.0"
+  }
+}
