@@ -1,10 +1,6 @@
 {
   "name": "web-scraper-node-cheerio",
-<<<<<<< HEAD
-  "version": "1.0.1",
-=======
-  "version": "1.1.0",
->>>>>>> 5b2fcd601807e25e7aac53ba0c0cc73196b7bdd5
+  "version": "1.2.1",
   "description": "React Web scraper using Node.js and Cheerio.js to retrieve information about a movie in IMDB.",
   "main": "server.js",
   "scripts": {
