@@ -1,18 +1,17 @@
-# IMDB-Web-Scraper
-![status in_progress](https://img.shields.io/badge/status-in_progress-brightgreen.svg)
+# imdb-web-scraper
 
-React Web scraper using Node.js and Cheerio.js to retrieve information about a movie in IMDB.
+![work in_progress](https://img.shields.io/badge/work-in_progress-yellow.svg?style=flat-square)
+
+> A web scraper using node.js and cheerios.js to retrieve the title, the release date and the rating of movies in IMDB.
 
 ### Prerequisites
 [Node.js](https://nodejs.org/en/)
 
 ### Installing
-```
-# Go to your project directory
-cd my-scraper
-
+```sh
 # Clone the repository
-git clone https://github.com/pankaryp/IMDB-Web-Scraper.git
+git clone https://github.com/pankaryp/imdb-web-scraper.git
+cd imdb-web-scraper
 
 # Install server dependencies
 npm install
